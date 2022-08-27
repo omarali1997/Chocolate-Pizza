@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mouse+Memoirs&family=Poor+Story&display=swap');
+
+#body {
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.5;
+   max-width: 800px;
+   margin: auto;
+   background: white;
+   padding: 10px;
+   line-height: 1;
+
+}
+
+#header {
+   display: flex;
+   justify-content: space-between;
+   margin: 30px 10px;
+   height: 40px;
+
+
+}
+
+#head0 {
+   display: flex;
+   justify-content: space-between;
+   line-height: 1;
+
+}
+
+#heagerLogo {
+   margin-right: 10px;
+
+}
+
+.h1 {
+   font-family: 'Lobster', cursive;
+   font-style: italic;
+   font-size: 30px;
+   margin: 0%;
+}
+
+.pr {
+   font-weight: 10;
+   color: rgba(80, 78, 78, 0.918);
+   text-transform: capitalize;
+   margin: 0%;
+
+
+}
+
+#head {
+   display: flex;
+   justify-content: space-between;
+   gap: 1px;
+}
+
+nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+
+}
+
+.marg {
+   margin-left: 10px;
+}
+
+main {
+
+   border-top-style: solid;
+   border-top-width: 10px;
+   padding-top: 40px;
+   border-bottom-style: solid;
+   border-bottom-width: 10px;
+   padding-bottom: 40px;
+   border-color: rgb(208, 208, 208);
+
+
+}
+
+#main {
+   line-height: 1;
+
+}
+
+.h1-main {
+   font-family: 'Lato', sans-serif;
+   font-size: 30px;
+   font-weight: 900;
+   margin: 0%;
+}
+
+.sec {
+   display: flex;
+   justify-content: space-between;
+   color: rgba(159, 151, 151, 0.918);
+
+}
+
+.a {
+   color: rgba(159, 151, 151, 0.918);
+   text-decoration: none;
+
+}
+
+.pr-main {
+
+   text-transform: capitalize;
+   margin: 0%;
+
+}
+
+.choc-pizza {
+   width: 100%;
+   margin-top: 30px;
+   filter: brightness(1.3) invert(.01);
+   background-blend-mode: overlay;
+}
+
+#main2 {
+   text-indent: 30px;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   color: rgba(80, 78, 78, 0.918);
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+
+}
+
+.p {
+   margin: 40px;
+}
+
+#m3 {
+   background: url(./assets/list-bg.png), rgba(240, 229, 167, 0.5);
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 30px;
+}
+
+.lineh {
+   text-decoration: line-through;
+}
+
+#f {
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+   font-size: 15px;
+   gap: 10px;
+}
+
+#f button {
+   font-size: 15px;
+   width: 150px;
+   height: 40px;
+   background-color: rgb(211, 72, 62);
+   color: aliceblue;
+}
+
+#footer h2 {
+   font-weight: bold;
+}
+
+.footer1 {
+   border-top-style: solid;
+   border-top-width: 2px;
+   border-color: rgb(194, 196, 197);
+   text-align: center;
+   color: rgba(118, 113, 113, 0.918);
+}
+
+.footer-image {
+   position: relative;
+   margin-top: -20px;
+   background-blend-mode: luminosity;
+   filter: brightness(2.5) grayscale(50%);
+}
